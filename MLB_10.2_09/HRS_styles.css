@@ -1,0 +1,329 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+/*Header Styles*/
+.Header{
+    width: 100%;
+    background-image: url("images/Background1.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    padding-top: 10px;;
+}
+    
+h1{
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.sec3{
+  font-size: large;
+  font-family: Arial;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.logo{
+	display: block;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border-style: groove;
+    border-color: black;
+  }
+
+  .ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(5, 5, 5,0.5);
+  }
+
+.li1{
+    display: inline;
+    float: left;
+    }
+      
+.li1 a{
+    display: block;
+    color: white;
+    padding: 20px;
+    background-color:none;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.li1 a:hover{
+    background-color:darkolivegreen;
+  }
+
+.active{
+    background-color:rgb(132, 132, 132,0.8);
+  }
+
+.logo_1{
+    display: block;
+    margin-left: 3px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    border-style: groove;
+    border-color: black;
+  }
+
+  /*Footer Styles*/
+.footer{ 
+    background-image:url("images/Background3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px; 
+    margin-bottom: 0;
+  }
+  .footercontent{
+    color: white;
+    margin-bottom: 0;
+ }
+/*Horizontal line and hyperlink Styles*/
+hr{
+  border-color: black;
+}
+
+a{
+    color:  black;
+  }
+
+/*Section 1 Styles*/
+  .sec1{
+    box-sizing: border-box;
+    background-image: url("images/Image1.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .dropbtn {
+    background-color:skyblue;
+    color:none;
+    cursor:pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position:fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+
+    background-color: #f2d3d3
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #e6eee6;
+  }
+
+  .para{
+    background-color: #e6eee6;
+    opacity: 0.5;
+    width: 100%;
+    height: 300px;
+    text-align: right;
+    font-family: 'Times New Roman';
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+.ul3{
+    list-style-type: none;
+    padding: 0;
+  }
+
+.li3{
+    display:block;
+    float:inline-end;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }  
+
+.li3 a{
+    display:block;
+    color: black;
+    padding: 16px;
+    background-color:lightskyblue;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.li3 a:hover{
+    background-color:lightgray;
+  }
+
+  /*section 2 styles*/
+
+.sec2{
+    box-sizing: border-box;
+    background-image: url("images/Image1.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+    opacity: 0.8;
+    width: 100%;
+    height: 600px;
+  }
+  
+.faq-para{
+  color:#e6eee6;
+  text-align: center;
+}
+
+.faq-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hr-line{
+    width: 60%;
+    margin: auto;
+}
+
+  /* Style the buttons that are used to open and close the faq-page body */
+.faq-page1,.faq-page2,.faq-page3,.faq-page4,.faq-page5 {
+      color: white;
+      cursor: pointer;
+      padding: 30px 20px;
+      width: 60%;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      margin: auto;
+}
+
+.faq-body1,.faq-body2,.faq-body3,.faq-body4,.faq-body5 {
+      margin: auto;
+     text-align: center;
+     width: 50%; 
+     padding: auto;
+}
+
+.active, .faq-page1:hover {
+      background-color:rgb(132, 132, 132,0.8);
+      margin-top: 2px;
+}
+.active, .faq-page2:hover {
+  background-color:rgb(132, 132, 132,0.8);
+  margin-top: 2px;
+}
+.active, .faq-page3:hover {
+  background-color:rgb(132, 132, 132,0.8);
+  margin-top: 2px;
+}
+.active, .faq-page4:hover {
+  background-color:rgb(132, 132, 132,0.8);
+  margin-top: 2px;
+}
+.active, .faq-page5:hover {
+  background-color:rgb(132, 132, 132,0.8);
+  margin-top: 2px;
+}
+
+.faq-body1,.faq-body2,.faq-body3,.faq-body4,.faq-body5 {
+      padding: 0 18px;
+      background-color: rgb(243, 240, 240);
+      display:none;
+      overflow: hidden;
+}
+
+.faq-page1:after {
+  content:icon;
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.faq-page2:after {
+  content:icon;
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.faq-page3:after {
+  content:icon;
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.faq-page4:after {
+  content:icon;
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.faq-page5:after {
+  content:icon;
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Hide faq answers by default */
+.faq-container div:not(:first-child) .faq-body {
+  display: none;
+}
+
+/* Style for the clicked question */
+.faq-container div.faq-active .faq-page {
+  color: blue;
+}
+
+textarea{
+  border-color: black;
+}
+input{
+  
+  border-color: black;
+}
+

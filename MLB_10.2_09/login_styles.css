@@ -1,0 +1,179 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+/*Header Styles*/
+.Header{
+    width: 100%;
+    background-image: url("images/Background1.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    padding-top: 10px;;
+}
+    
+h1{
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo{
+	display: block;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border-style: groove;
+    border-color: black;
+  }
+
+  .ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(5, 5, 5,0.5);
+  }
+
+.li1{
+    display: inline;
+    float: left;
+    }
+      
+.li1 a{
+    display: block;
+    color: white;
+    padding: 20px;
+    background-color:none;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.li1 a:hover{
+    background-color:darkolivegreen;
+  }
+
+.active{
+    background-color:rgb(132, 132, 132,0.8);
+  }
+
+.logo_1{
+    display: block;
+    margin-left: 3px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    border-style: groove;
+    border-color: black;
+  }
+
+  /*Footer Styles*/
+.footer{ 
+    background-image:url("images/Background3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px; 
+    margin-bottom: 0;
+  }
+  .footercontent{
+    color: white;
+    margin-bottom: 0;
+ }
+/*Horizontal line and hyperlink Styles*/
+hr{
+  border-color: black;
+}
+
+a{
+    color:  black;
+  }
+.sec2{
+    box-sizing: border-box;
+    background-image: url("images/Image1.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+    opacity: 0.8;
+    width: 100%;
+    height: 600px;
+  }
+  
+
+
+.heading{
+	font-weight:bold;
+	text-align:left;
+	text-decoration:underline;
+}
+ul.data{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li.data{
+	float:left;
+	font-family:"Tahoma";
+	padding: 20px 200px;
+}
+li.selection{
+	list-style-type:none;
+}
+li.selection{
+	float:left;
+	padding: 20px 150px;
+}
+
+.slct{
+	text-align:rightwards;
+}
+table#h{
+	text-align:center;
+}
+.bttn{
+	margin:8px 4px 4px 4px;
+	width: 20%;
+	height: 50px;
+	background-color:black;
+	color:white;
+	font-size: 16px;
+	font-weight:bold;
+	justify-content:center;
+
+}
+.C{
+    margin: 20px,10px,10px;
+    border-style: groove;
+    border-color: black;
+    text-align: center;
+    padding:10px,20px; 
+    line-height: 1;
+  }
+
+  .C p{
+    margin-bottom:0px;
+  }
+ 
+
+a{
+    color:  black;
+  }
+  
+  .food{
+	font-weight:bold;
+	text-align:left;
+	text-decoration:underline;
+  }
+  th.course{
+	  text-align:left;
+	  
+  }
+  p#con{
+	  font-size:18px;
+  }
+  
